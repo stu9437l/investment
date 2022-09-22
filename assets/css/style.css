@@ -1,0 +1,340 @@
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+
+/* banner section */
+main .hero-banner .item{
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+main .hero-banner .item h2{
+  font-size: 6rem;
+  font-weight: 900;
+  margin-bottom: 3rem;
+  text-transform: capitalize;
+  color: white;
+}
+main .hero-banner .item h4{
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 3rem;
+  color: white;
+}
+main .hero-banner .item img{
+  height: 70vh;
+  width: auto;
+  object-fit: cover;
+  object-position: center;
+  margin: auto;
+}
+
+/* custom number counter css */
+main .number-couter{
+  background-image: url(./../images/wave.svg);
+  height: 25rem;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main .number-couter .card{
+  border-radius: var(--sm-border-radius);
+}
+main .number-couter .card-body{
+  padding:4rem 2rem;
+}
+main .number-couter img {
+  height: 6.4rem;
+  margin-bottom: 2rem;
+}
+main .number-couter h3 {
+  font-size: 4rem;
+  font-weight: 900;
+  color: #0c32c0;
+  margin-bottom: 1rem;
+}
+main .number-couter h6 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--dark-color);
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+/* custom alternatives blogs css */
+main .alternative-blogs h4{
+  font-size:2rem;
+  font-weight:500;
+  color: var(--dark-color);
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+main .alternative-blogs h2{
+  font-size:4rem;
+  font-weight:900;
+  color: var(--dark-color);
+  text-transform: capitalize;
+  margin-bottom: 3rem;
+}
+main .alternative-blogs p{
+  font-size:1.6rem;
+  font-weight:400;
+  color: var(--dark-color);
+  margin-bottom: 0;
+}
+
+/* custom news letter */
+main .news-letter{
+  background-color: #eee;
+}
+main .news-letter h4{
+  font-size:2rem;
+  font-weight:500;
+  color: var(--dark-color);
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+main .news-letter h2{
+  font-size:4rem;
+  font-weight:900;
+  color: var(--dark-color);
+  text-transform: capitalize;
+  margin-bottom: 3rem;
+  text-align: center;
+
+}
+main .news-letter .form-control{
+  height: 6.5rem;
+  border-radius: 3rem;
+  border: 2px solid #666;
+  display: flex;
+  align-items: center;
+  padding: 0 5rem 0 2rem;
+   font-size:1.8rem;
+     font-weight: 500;
+  color:var(--dark-color);
+}
+main .news-letter input::placeholder{
+  font-size:1.8rem;
+  color: #666;
+  font-weight: 500;
+}
+main .news-letter .news-letter-btn{
+  position: absolute;
+  right: 0;
+  top:0;
+  padding: 0 2.5rem;
+  height: 100%;
+  border-radius: 3rem;
+  font-size:1.8rem;
+  font-weight: 600;
+  border:2px solid #0c32c0;
+  background-color: #0c32c0;
+  color: white;
+}
+main .news-letter .news-letter-btn i{
+  display: none;
+  transition: 0.2s linear;
+}
+main .news-letter .news-letter-btn:hover i{
+  display: inline;
+}
+
+/* marketplace offers custom css */
+main .marketplace-offers .card{
+  /* border: 2px solid #eee; */
+}
+main .marketplace-offers .card .card-body{
+  padding: 2rem;
+}
+main .marketplace-offers .image-wrapper {
+  width: 100%;
+  height:20rem;
+  overflow: hidden;
+  border-radius: var(--sm-border-radius);
+  position: relative;
+}
+main .marketplace-offers .image-wrapper a{
+  display: block;
+}
+main .marketplace-offers .image-wrapper .custom-badge{
+  position: absolute;
+  top:1rem;
+  left: 1rem;
+  background-color: var(--warning-color);
+  color:var(--dark-color);
+  padding: 1rem 2rem;
+  border-radius: var(--sm-border-radius);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+main .marketplace-offers .image-wrapper img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+main .marketplace-offers .owl-dot span{
+  width: 2rem !important;
+  height:4px !important;
+}
+ main .marketplace-offers .owl-theme .owl-dots .owl-dot.active span,
+ main .marketplace-offers .owl-theme .owl-dots .owl-dot:hover span{
+  background:#0c32c0 !important;
+ }
+main .marketplace-offers .class-type{
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: var(--dark-color);
+  margin-bottom: 0rem;
+}
+main .marketplace-offers .name{
+  font-size: 2rem;
+  font-weight: 700  ;
+  color: var(--dark-color);
+  display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #0c32c0;
+    margin-bottom: 1rem;
+}
+main .marketplace-offers .location{
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--dark-color);
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--dark-color);
+  margin-bottom: 2rem;
+}
+main .marketplace-offers .progress-wrapper{
+  margin-bottom:2rem;
+}
+main .marketplace-offers .progress-wrapper h5{
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #666;
+  margin-bottom: 1rem;
+}
+main .marketplace-offers .progress-wrapper h5 span{
+  font-weight: 700;
+}
+main .marketplace-offers .progress-wrapper .invested span{
+  color: #0c32c0;
+}
+main .marketplace-offers .progress-wrapper .to-invest span{
+  color: var(--dark-color);
+}
+main .marketplace-offers .progress-wrapper{
+  border: 1px solid var(--warning-color);
+  border-radius:2rem;
+  padding: 2rem;
+}
+main .marketplace-offers .invest-calculation-wrapper{
+  background-color: white;
+  border-radius:2rem;
+  border: 1px solid var(--dark-color);
+}
+main .marketplace-offers .invest-calculation-wrapper .col-4{
+  padding:1rem 2rem;
+}
+main .marketplace-offers .invest-calculation-wrapper .val{
+font-size: 1.6rem;
+  font-weight: 900;
+  color: var(--dark-color);
+  margin-bottom: 0.5rem;
+}
+main .marketplace-offers .invest-calculation-wrapper .tit{
+font-size: 1.4rem;
+font-weight: 400;
+color: #666;
+margin-bottom: 0;
+}
+
+/* Login & Register custom css */
+
+.in_login{
+height: 100vh;
+width: 100vw;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.in_login .welcome-content-wrapper {
+  width: 30%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding:2vw;
+    background-color: rgba(73, 152, 255, 0.3);
+
+}
+.form-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 70%;
+  height: 100vh;
+  /* background-color: rgba(73, 152, 255, 0.3); */
+  padding: 2vw;
+  position: relative;
+}
+.home-link{
+  position: absolute;
+  top:2vw;
+  left: 2vw;
+  color: var(--dark-color);
+  text-decoration: none;
+}
+.home-link:hover{
+ color: var(primary-color);
+}
+.form-content-width{
+  width: 50%;
+}
+.form-wrapper h3 {
+  color: var(--dark-color);
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+.form-wrapper .auth-suggest span {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--dark-color);
+}
+.form-wrapper .auth-suggest a {
+  font-size: 1.4rem;
+  font-weight: 500;
+  display: inline-block;
+  margin-left: 0.5rem;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+.form-wrapper .auth-suggest a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.in_login .welcome-content-wrapper h3 {
+  color: var(--dark-color);
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-align: center;
+}
+.in_login .welcome-content-wrapper p {
+  color: var(--placeholder-color);
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-align: center;
+}
