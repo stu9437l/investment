@@ -213,22 +213,22 @@ main .marketplace-offers .location {
   color: var(--dark-color);
   margin-bottom: 2rem;
 }
-main .marketplace-offers .progress-wrapper {
+main .progress-wrapper {
   margin-bottom: 2rem;
 }
-main .marketplace-offers .progress-wrapper h5 {
+main .progress-wrapper h5 {
   font-size: 1.4rem;
   font-weight: 500;
   color: #666;
   margin-bottom: 1rem;
 }
-main .marketplace-offers .progress-wrapper h5 span {
+main .progress-wrapper h5 span {
   font-weight: 700;
 }
-main .marketplace-offers .progress-wrapper .invested span {
+main .progress-wrapper .invested span {
   color: #0c32c0;
 }
-main .marketplace-offers .progress-wrapper .to-invest span {
+main .progress-wrapper .to-invest span {
   color: var(--dark-color);
 }
 main .marketplace-offers .progress-wrapper {
