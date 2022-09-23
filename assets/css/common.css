@@ -13,6 +13,17 @@ html {
   --section-padding: 5rem;
 }
 
+/* custom badge */ 
+.custom-warning-badge {
+  background-color: var(--warning-color);
+  color: var(--dark-color);
+  padding: 1rem 2rem;
+  border-radius: var(--sm-border-radius);
+  font-size: 1.2rem;
+  font-weight: 700;
+  display: inline-block;
+}
+
 /* main-section-heading */
 .main-section-heading {
   font-size: 4rem;
@@ -72,6 +83,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 99;
+  border-bottom:1px solid #224ded;
 }
 header .brand-logo img {
   height: 50px;
@@ -88,7 +100,7 @@ header .header-link-list .link {
   font-family: 500;
   color: #ccc;
   text-decoration: none;
-  padding: 1.6rem;
+  padding: 0 1.6rem;
   position: relative;
 }
 header .header-link-list .link.active,
@@ -98,30 +110,75 @@ header .header-link-list .link:hover {
 header .header-link-list .link::after {
   content: "";
   position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 0%;
+  bottom: -163%;
+  left: 25%;
+  width: 0;
   background-color: white;
   height: 2px;
   transition: 0.3s linear;
 }
+header .header-link-list .dropdown-toggle::after {
+    bottom: -141% !important;
+    display: inline-block;
+    /* margin-left: 0.255em; */
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0 solid;
+    border-right: 0 solid transparent;
+    border-bottom: 0;
+    border-left: 0 solid transparent;
+}
+header .header-link-list .dropdown .dropdown-menu{
+  background-color: #0c32c0;
+  padding: 1rem 0;
+  border: 1px solid #ccc;
+}
+header .header-link-list .dropdown .dropdown-menu .dropdown-item{
+  font-size:1.6rem;
+  font-weight: 400;
+  color: #ccc;
+  padding:1rem 2rem ;
+}
+header .header-link-list .dropdown .dropdown-menu .dropdown-item:hover{
+    background-color: var(--primary-color);
+    color: white;
+}
+header .header-link-list .dropdown-menu.show{
+  position: absolute;
+    inset: 0px auto auto 0px;
+    margin: 0px;
+    transform: translate3d(0px, 55.7778px, 0px) !important;
+    min-width: 100%;
+}
+/* header .header-link-list .dropdown:hover .dropdown-menu{
+  display: block;
+} */
 header .header-link-list .link.active::after {
-  width: 100%;
+  width: 50%;
   background-color: white;
 }
 header .header-link-list .link:hover::after {
-  width: 100%;
+  width: 50%;
   background-color: #ccc;
 }
 
 /* custom css footer */
 footer {
-  padding: 5rem 0;
   background-image: url(../images/footer.png);
   background-color: black;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+footer .border-top{
+  border-top:1px solid #323232 !important;
+}
+footer .copyright{
+  color: white;
+  margin-bottom: 0;
+  font-size: 1.4rem;
+  font-style: italic;
+
 }
 footer .footer-link-title {
   font-size: 2rem;
@@ -171,7 +228,7 @@ footer .footer-contact-list li:last-child {
 }
 
 footer .brand-logo-footer img {
-  height: 100px;
+  height: 60px;
   margin-bottom: 0.5rem;
 }
 footer .company-info p {
@@ -211,7 +268,7 @@ footer .social-media-list li .link.facebook {
   background-color: #4267b2;
 }
 footer .social-media-list li .link.tiktok {
-  background-color: #000000;
+  background-color: #ff0050;
 }
 footer .social-media-list li .link.twitter {
   background-color: #1da1f2;

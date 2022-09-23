@@ -241,7 +241,9 @@ main .marketplace-offers .invest-calculation-wrapper {
   border-top: 1px solid #f1f1f1;
   padding: 2rem 0 1rem 0;
 }
-
+main .marketplace-offers .invest-calculation-wrapper .border-end.border-secondary {
+  border-right: 1px solid #e0d5d5cc !important;
+}
 main .marketplace-offers .invest-calculation-wrapper .val {
   font-size: 1.6rem;
   font-weight: 900;
@@ -253,6 +255,170 @@ main .marketplace-offers .invest-calculation-wrapper .tit {
   font-weight: 400;
   color: #666;
   margin-bottom: 0;
+}
+
+
+/* custom single marketplace details css */
+
+.marketplace-single-detail .feature-wrapper{
+  background-color: #f1f1f1;
+  padding: 1.5rem;
+  border-radius: var(--sm-border-radius);
+}
+.marketplace-single-detail .col-4 .card{
+  border-radius: var(--sm-border-radius);
+}
+.marketplace-single-detail .col-4 .card .card-body{
+  padding:1.5rem
+}
+.marketplace-single-detail .feature-wrapper h5{
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--dark-color);
+  margin-bottom: 0;
+}
+.marketplace-single-detail  .head{
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #666;
+  margin-bottom: 0.25rem;
+
+}
+.marketplace-single-detail .feature-wrapper > div{
+  margin-bottom: 1.5rem;
+}
+.marketplace-single-detail .light-badge{
+   background-color: #f1f1f1;
+  padding: 1.5rem;
+  border-radius: var(--sm-border-radius);
+  font-size: 1.6rem;
+    font-weight: 700;
+  text-transform: uppercase;
+  color: #0c32c0;
+  margin: 0.5rem 0;
+}
+.marketplace-single-detail .light-badge i{
+  color: var(--dark-color);
+}
+.marketplace-single-detail .content-descrption .marketplace-name{
+  font-size: 3.5rem;
+  font-weight: 700;
+  color:#0c32c0;
+  margin-bottom: 0.5rem;
+}
+.marketplace-single-detail .content-descrption .marketplace-location{
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--dark-color);
+  margin-bottom: 0rem;
+}
+.marketplace-single-detail .content-descrption .marketplace-location i{
+  color:#666
+}
+.marketplace-single-detail .content-descrption .description{
+  font-size: 1.6rem;
+    font-weight: 500;
+  color: var(--dark-color);
+  margin-bottom: 0;
+}
+
+
+/* how we work section */
+.main .how-we-work h4 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--dark-color);
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+main .how-we-work h3 {
+  font-size: 3rem;
+  font-weight: 900;
+  color: var(--dark-color);
+  text-transform: capitalize;
+  margin-bottom: 3rem;
+}
+main .how-we-work p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--dark-color);
+  margin-bottom: 0;
+}
+.main .how-we-work .left-content-right-image,
+.main .how-we-work .left-image-right-content{
+  margin-bottom:3rem;
+}
+main .how-we-work img{
+  height: 30rem;
+}
+
+/* why us section custom css */
+.why-us {
+  background-color:#f1f1f1;
+}
+.why-us .card{
+  background-color: white;
+  border: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.why-us .card .card-body{
+  padding: 5rem;
+}
+.why-us .card .owner-profile{
+  height: 90px;
+  width: 90px;
+  border-radius:50%;
+  border: 7px solid rgba(73, 152, 255, 0.2);
+  overflow: hidden;
+  margin: 0 auto;
+
+}
+.why-us .card .owner-profile img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.why-us .card .owner-name{
+ font-size: 1.4rem;
+ font-weight: 700;
+ color:#0c32c0;
+ text-align:center;
+ margin: 1rem 0;
+}
+.why-us .card .owner-thought{
+   font-size: 2rem;
+ font-weight: 400;
+ color:var(--dark-color);
+ text-align:center;
+ margin-bottom:1rem;
+ font-style: italic;
+}
+.why-us .card .owner-position{
+   font-size: 1.4rem;
+ font-weight: 400;
+ color:var(--dark-color);
+ font-style: italic;
+ margin: 1rem 0;
+}
+.why-us .feature img{
+  height: 64px;
+  width: auto;
+  margin-bottom: 2rem;
+}
+.why-us .feature .name{
+ font-size: 1.8rem;
+ font-weight: 700;
+ color:var(--dark-color);
+ margin-bottom: 1rem;
+}
+.why-us .feature .description{
+ font-size: 1.4rem;
+ font-weight: 400;
+ color:var(--dark-color);
+ margin-bottom: 0rem;
 }
 
 /* Login & Register custom css */
@@ -317,7 +483,7 @@ main .marketplace-offers .invest-calculation-wrapper .tit {
   text-decoration: none;
 }
 .form-wrapper .auth-suggest a:hover {
-  color: blue;
+  color: #0c32c0;
   text-decoration: underline;
 }
 
